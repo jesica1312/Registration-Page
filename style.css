@@ -1,0 +1,108 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fefaf6;
+  color: #001f3f;
+}
+
+.top-bar {
+  padding: 1rem 2rem;
+  background: #fff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.hero {
+  background-color: #063c63;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  padding: 2.5rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.event-info {
+  color: #6ec1e4;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.hero-image img {
+  max-width: 300px;
+}
+
+.register-button {
+  background-color: #3aaef2;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #1e88e5;
+}
+
+.program {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+.program-text {
+  flex: 2;
+  min-width: 300px;
+}
+
+.program-text h2, .program-text h3 {
+  color: #063c63;
+}
+
+.program-text ul {
+  padding-left: 1.2rem;
+}
+
+.webinar-details-card {
+  flex: 1;
+  min-width: 280px;
+  background-color: #063c63;
+  color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.webinar-details-card h2 {
+  margin-top: 0;
+}
+
+.webinar-details-card .register-button {
+  background-color: #3aaef2;
+  margin-top: 1.5rem;
+}
