@@ -51,7 +51,7 @@ body {
 
 .hero-image img {
   width: 100%;
-  max-width: 420px;
+  max-width: 400px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -125,4 +125,14 @@ body {
   gap: 1rem;
   margin-top: 1.5rem;
   flex-wrap: nowrap;
+}
+
+.webinar-details-card .arrow-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  opacity: 0.5;
+  transform: rotate(130deg);
+
 }
