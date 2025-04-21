@@ -50,8 +50,11 @@ body {
 }
 
 .hero-image img {
- width: 420px;
- height: auto;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .register-button {
@@ -108,4 +111,9 @@ body {
 .webinar-details-card .register-button {
   background-color: #3aaef2;
   margin-top: 1.5rem;
+}
+
+.webinar-details-card .box-image {
+
+
 }
