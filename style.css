@@ -15,7 +15,9 @@ body {
 }
 
 .logo {
-  max-height: 40px;
+  width: 200px;
+  height: auto;
+
 }
 
 .hero {
@@ -25,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   border-radius: 24px;
-  padding: 2.5rem;
+  padding: 2.3rem;
   margin: 2rem;
   flex-wrap: wrap;
 }
@@ -48,7 +50,8 @@ body {
 }
 
 .hero-image img {
-  max-width: 300px;
+ width: 420px;
+ height: auto;
 }
 
 .register-button {
